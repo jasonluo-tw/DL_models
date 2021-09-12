@@ -1,0 +1,9 @@
+epochs: 100
+batchsize: 64
+z_dims: 100
+d_pres: 10  ## loop for pretraining dis.
+### Files
+files:
+  img_dir1: '/home/jasonluo/Documents/MLDS/MLDS2018SPRING/hw3/hw3_1/dataset/extra_data/images/'
+  img_dir2: None
+  out_dir: './img_results/' 
